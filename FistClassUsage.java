@@ -26,6 +26,7 @@ public class FistClassUsage {
         System.out.println("Average GPA of Group: " + (GPA/members));
         System.out.println("The best Student: " + Group[MaxGpaID].Name + ". He/She got " +
                 Group[MaxGpaID].GPA + " Academic GPA");
+        // Some Garbage is Here for test
     }
 }
 class FirstClass {
