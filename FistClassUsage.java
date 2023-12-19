@@ -14,11 +14,18 @@ public class FistClassUsage {
             Group[i].GPA = console.nextFloat();
             System.out.println();
         }
-        float GPA = 0;
+        int MaxGpaID = 0;
+        float GPA = 0, MaxGPA = Group[0].GPA;
         for (int i = 0; i < members; i++) {
+            if (Group[i].GPA > MaxGPA) {
+                MaxGPA = Group[i].GPA;
+                MaxGpaID = i;
+            }
             GPA += Group[i].GPA;
         }
         System.out.println("Average GPA of Group: " + (GPA/members));
+        System.out.println("The best Student: " + Group[MaxGpaID].Name + ". He/She got " +
+                Group[MaxGpaID].GPA + " Academic GPA");
     }
 }
 class FirstClass {
