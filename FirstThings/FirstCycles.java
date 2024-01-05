@@ -1,3 +1,5 @@
+package FirstThings;
+
 import java.util.Scanner;
 
 public class FirstCycles {
