@@ -1,3 +1,5 @@
+package TasksFromSites;
+
 public class misinterpreted {
     public static void main(String[] args) {
         System.out.println(correct("1F-RUDYARD K1PL1NG"));

@@ -1,3 +1,5 @@
+package TasksFromSites;
+
 import java.util.Scanner;
 
 public class textsorttask {
