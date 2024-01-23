@@ -10,7 +10,7 @@ Library should have methods to add a book to the library and display the list of
 public class task14 {
     public static void main(String[] args) {
         Library library = new Library();
-        library.AddBook(new Book("Mainkampf", "Adolf G.", 1924));
+        library.AddBook(new Book("Mainkampf", "Adolf H.", 1924));
         library.AddBook(new Book("Как окончить АЙТУ", "Медеу А.", 2026));
         library.AddBook(new Book("Title1", "Name1", 1111));
         library.List();
