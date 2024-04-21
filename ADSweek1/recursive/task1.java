@@ -22,6 +22,7 @@ public class task1 {
     }
 }
 
+// min(1, min(2, min(3...))))
 //    public static int min(int step, int[] array, int temp_min){
 //        if (step == array.length) return temp_min;
 //        if (array[step] < temp_min){
