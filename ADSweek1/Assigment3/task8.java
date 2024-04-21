@@ -1,7 +1,16 @@
 package ADSweek1.Assigment3;
 
-public class task8 {
-    public static void main(String[] args) {
+import java.util.ArrayList;
 
+public class task8 <T>{
+    public static<T> void main(String[] args) {
+        ArrayList<Integer> arrayList = new ArrayList<>();
+
+        for (int i = 1; i <= 10; i++) {
+            arrayList.add(i);
+        }
+        ArrayList<T> arrayList1 = (ArrayList<T>) arrayList.clone();
+
+        System.out.println(arrayList1);
     }
 }
