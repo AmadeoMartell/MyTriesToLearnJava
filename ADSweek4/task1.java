@@ -1,6 +1,4 @@
-package ADSweek1.Assigment3;
-
-import java.util.*;
+package ADSweek4;
 
 public class task1 <T>{
     public static void main(String[] args) {

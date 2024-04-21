@@ -1,4 +1,4 @@
-package ADSweek1.Assigment3;
+package ADSweek4;
 
 public class task2 {
     public static void main(String[] args) {

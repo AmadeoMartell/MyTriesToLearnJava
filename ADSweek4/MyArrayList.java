@@ -1,10 +1,8 @@
-package ADSweek1.Assigment3;
+package ADSweek4;
 
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Iterator;
-import java.util.Spliterator;
-import java.util.function.Consumer;
 
 public class MyArrayList <T> implements Iterable<T>, Collection<T>{
     private int size = 0;

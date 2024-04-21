@@ -1,8 +1,7 @@
-package ADSweek1.Assigment3;
+package ADSweek4;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
 
 public class task7 {
     public static void main(String[] args) {
